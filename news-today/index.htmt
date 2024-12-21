@@ -1,0 +1,20 @@
+<html>
+ <head>
+   <meta charset="UTF-8">
+   <title>News Right Now</title>
+ </head>
+<body>
+ <navbar>
+ <ul>
+     <li><a herf="#">Home</a></li>
+     <li><a herf="#">Politics</a></li>
+     <li><a herf="#">Sports</a></li>
+     <li><a herf="#">Economic</a></li>
+     <li><a herf="#">Technology</a></li>
+     <li><a herf="#">Join Us</a></li>
+ </ul>
+ </navbar>
+ 
+    
+</body>
+</html>
