@@ -1,23 +1,33 @@
-<html>
- <head>
-   <meta charset="UTF-8">
-   <title>News Right Now</title>
- </head>
- <header>
-  News Right Now 
- </header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News Right Now</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
 <body>
- <navbar>
- <ul>
-     <li><a herf="#">Home</a></li>
-     <li><a herf="#">Politics</a></li>
-     <li><a herf="#">Sports</a></li>
-     <li><a herf="#">Economic</a></li>
-     <li><a herf="#">Technology</a></li>
-     <li><a herf="#">Join Us</a></li>
- </ul>
- </navbar>
- 
-    
+  <header>
+    <h1>News Right Now</h1>
+    <nav>
+      <ul>
+        <li><a href="#" onclick="showNews('trending')">Trending</a></li>
+        <li><a href="#" onclick="showNews('sports')">Sports</a></li>
+        <li><a href="#" onclick="showNews('politics')">Politics</a></li>
+        <li><a href="#" onclick="showNews('economics')">Economics</a></li>
+        <li><a href="#" onclick="showNews('technology')">Technology</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="news-section">
+      <h2 id="news-heading">Trending News</h2>
+      <div id="news-container"></div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 News Right Now. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
